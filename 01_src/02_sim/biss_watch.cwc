@@ -1,0 +1,64 @@
+<chipwatcher project_name="biss_test" bit_file="biss_test_Runs/phy_1/biss_test.bit" bid_file="biss_test_Runs/phy_1/biss_test_inst.bid" chip_name="EG4X20BG256">
+<!-- HMAC is: e4cd76b320bd05ebad25d38562930ef4405fbf80d4360501cc445044defa8931 -->
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="U2_control/clk" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="512"/>
+		<signal_vec>
+			<data_nets>
+				<net name="U2_control/angle_request"/>
+				<net name="U2_control/data_in_pose"/>
+				<net name="U2_control/flag_ACK"/>
+				<net name="U2_control/flag_CDS"/>
+				<net name="U2_control/flag_CRC"/>
+				<net name="U2_control/flag_DATA"/>
+				<net name="U2_control/flag_IDLE"/>
+				<net name="U2_control/flag_LAT"/>
+				<net name="U2_control/flag_STP"/>
+				<net name="U2_control/flag_STR"/>
+				<net name="U2_control/request"/>
+				<net name="de"/>
+				<net name="key"/>
+				<net name="led[0]"/>
+				<net name="led[1]"/>
+				<net name="led[2]"/>
+				<net name="led[3]"/>
+				<net name="ma"/>
+				<net name="re"/>
+				<net name="sl"/>
+				<net name="sys_rst_n"/>
+			</data_nets>
+			<watcher_nodes>
+				<net name="U2_control/angle_request" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/data_in_pose" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_ACK" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_CDS" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_CRC" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_DATA" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_IDLE" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_LAT" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_STP" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/flag_STR" op="equal" type="reg" trigger="enable"/>
+				<net name="U2_control/request" op="equal" type="reg" trigger="enable"/>
+				<net name="de" op="equal" type="output" trigger="enable"/>
+				<net name="key" op="equal" type="input" trigger="enable"/>
+				<bus name="led" radix="bin" state="collapse" op="dont_care" type="output">
+					<net name="led[3]" type="output" trigger="enable"/>
+					<net name="led[2]" type="output" trigger="enable"/>
+					<net name="led[1]" type="output" trigger="enable"/>
+					<net name="led[0]" type="output" trigger="enable"/>
+				</bus>
+				<net name="ma" op="equal" type="output" trigger="enable"/>
+				<net name="re" op="equal" type="output" trigger="enable"/>
+				<net name="sl" op="equal" type="input" trigger="enable"/>
+				<net name="sys_rst_n" op="equal" type="input" trigger="enable"/>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				U2_control/angle_request == any && U2_control/data_in_pose == any && U2_control/flag_ACK == any && U2_control/flag_CDS == any && U2_control/flag_CRC == any && U2_control/flag_DATA == any && U2_control/flag_IDLE == any && U2_control/flag_LAT == any && U2_control/flag_STP == any && U2_control/flag_STR == any && U2_control/request == any && de == any && key == any && led[0] == low && led[1] == low && led[2] == low && led[3] == low && ma == any && re == any && sl == any && sys_rst_n == any
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

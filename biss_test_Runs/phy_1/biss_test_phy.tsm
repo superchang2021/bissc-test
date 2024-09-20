@@ -1,0 +1,635 @@
+eagle_20
+13 2441 855 1393 1192 13536 9 0
+-1.433 0.137 biss_test eagle_20 EG4X20BG256 Detail NA 12 3
+clock: clk_50MHz
+13 4678 80 2
+Setup check
+23 3
+Endpoint: led[2]_syn_4
+23 11.694000 153 3
+Timing path: U4_led/add0_syn_194.clk->led[2]_syn_4
+U4_led/add0_syn_194.clk
+led[2]_syn_4
+25 11.694000 23.567000 11.873000 6 7
+U4_led/timer[5] U4_led/reg1_syn_188.d[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[0]
+U4_led/led_in_b[2] led[2]_syn_4.do[0]
+
+Timing path: U4_led/reg1_syn_193.clk->led[2]_syn_4
+U4_led/reg1_syn_193.clk
+led[2]_syn_4
+75 11.698000 23.567000 11.869000 6 7
+U4_led/timer[2] U4_led/reg1_syn_188.a[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[0]
+U4_led/led_in_b[2] led[2]_syn_4.do[0]
+
+Timing path: U4_led/reg1_syn_191.clk->led[2]_syn_4
+U4_led/reg1_syn_191.clk
+led[2]_syn_4
+125 11.713000 23.567000 11.854000 6 7
+U4_led/timer[3] U4_led/reg1_syn_188.b[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[0]
+U4_led/led_in_b[2] led[2]_syn_4.do[0]
+
+
+Endpoint: led[0]_syn_4
+175 11.743000 153 3
+Timing path: U4_led/reg1_syn_183.clk->led[0]_syn_4
+U4_led/reg1_syn_183.clk
+led[0]_syn_4
+177 11.743000 23.567000 11.824000 6 7
+U4_led/timer[11] U4_led/reg1_syn_183.c[1]
+U4_led/led_in_b[0]_syn_8 U4_led/reg1_syn_186.d[1]
+U4_led/led_in_b[0]_syn_10 U4_led/led_in_b[0]_syn_83.a[1]
+U4_led/led_in_b[0]_syn_16 U4_led/led_in_b[0]_syn_81.b[0]
+U4_led/led_in_b[0]_syn_22 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[0]
+U4_led/mux1_syn_11 U4_led/reg0_syn_27.a[0]
+U4_led/led_in_b[0] led[0]_syn_4.do[0]
+
+Timing path: U4_led/reg1_syn_183.clk->led[0]_syn_4
+U4_led/reg1_syn_183.clk
+led[0]_syn_4
+227 11.743000 23.567000 11.824000 6 7
+U4_led/timer[11] U4_led/reg1_syn_183.c[1]
+U4_led/led_in_b[0]_syn_8 U4_led/reg1_syn_186.d[1]
+U4_led/led_in_b[0]_syn_10 U4_led/led_in_b[0]_syn_83.a[0]
+U4_led/led_in_b[0]_syn_16 U4_led/led_in_b[0]_syn_81.b[0]
+U4_led/led_in_b[0]_syn_22 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[0]
+U4_led/mux1_syn_11 U4_led/reg0_syn_27.a[0]
+U4_led/led_in_b[0] led[0]_syn_4.do[0]
+
+Timing path: U4_led/add0_syn_194.clk->led[0]_syn_4
+U4_led/add0_syn_194.clk
+led[0]_syn_4
+277 11.796000 23.567000 11.771000 6 7
+U4_led/timer[5] U4_led/reg1_syn_188.d[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_81.a[0]
+U4_led/led_in_b[0]_syn_22 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[0]
+U4_led/mux1_syn_11 U4_led/reg0_syn_27.a[0]
+U4_led/led_in_b[0] led[0]_syn_4.do[0]
+
+
+Endpoint: led[3]_syn_4
+327 11.844000 153 3
+Timing path: U4_led/add0_syn_194.clk->led[3]_syn_4
+U4_led/add0_syn_194.clk
+led[3]_syn_4
+329 11.844000 23.567000 11.723000 6 7
+U4_led/timer[5] U4_led/reg1_syn_188.d[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[1]
+U4_led/led_in_b[3] led[3]_syn_4.do[0]
+
+Timing path: U4_led/reg1_syn_193.clk->led[3]_syn_4
+U4_led/reg1_syn_193.clk
+led[3]_syn_4
+379 11.848000 23.567000 11.719000 6 7
+U4_led/timer[2] U4_led/reg1_syn_188.a[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[1]
+U4_led/led_in_b[3] led[3]_syn_4.do[0]
+
+Timing path: U4_led/reg1_syn_191.clk->led[3]_syn_4
+U4_led/reg1_syn_191.clk
+led[3]_syn_4
+429 11.863000 23.567000 11.704000 6 7
+U4_led/timer[3] U4_led/reg1_syn_188.b[0]
+U4_led/led_in_b[0]_syn_2 U4_led/reg1_syn_180.a[1]
+U4_led/led_in_b[0]_syn_4 U4_led/reg1_syn_156.a[0]
+U4_led/led_in_b[0]_syn_6 U4_led/led_in_b[0]_syn_92.d[1]
+U4_led/led_in_b[0]_syn_32 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_105.d[1]
+U4_led/mux3_syn_7 U4_led/reg0_syn_24.a[1]
+U4_led/led_in_b[3] led[3]_syn_4.do[0]
+
+
+
+Hold check
+479 3
+Endpoint: U4_led/reg0_syn_24
+481 0.639000 153 3
+Timing path: U4_led/reg0_syn_24.clk->U4_led/reg0_syn_24
+U4_led/reg0_syn_24.clk
+U4_led/reg0_syn_24
+483 0.639000 3.127000 3.766000 1 1
+led[2]_dup_3 U4_led/reg0_syn_24.d[0]
+
+Timing path: U4_led/reg1_syn_176.clk->U4_led/reg0_syn_24
+U4_led/reg1_syn_176.clk
+U4_led/reg0_syn_24
+521 1.555000 3.127000 4.682000 2 2
+U4_led/timer[22] U4_led/led_in_b[0]_syn_81.d[0]
+U4_led/led_in_b[0]_syn_22 U4_led/reg0_syn_24.b[0]
+
+Timing path: U4_led/led_in_b[0]_syn_86.clk->U4_led/reg0_syn_24
+U4_led/led_in_b[0]_syn_86.clk
+U4_led/reg0_syn_24
+561 1.616000 3.127000 4.743000 2 2
+U4_led/timer[23] U4_led/led_in_b[0]_syn_81.e[0]
+U4_led/led_in_b[0]_syn_22 U4_led/reg0_syn_24.b[0]
+
+
+Endpoint: U4_led/reg0_syn_24
+601 0.639000 153 3
+Timing path: U4_led/reg0_syn_24.clk->U4_led/reg0_syn_24
+U4_led/reg0_syn_24.clk
+U4_led/reg0_syn_24
+603 0.639000 3.127000 3.766000 1 1
+led[3]_dup_3 U4_led/reg0_syn_24.d[1]
+
+Timing path: U4_led/reg1_syn_176.clk->U4_led/reg0_syn_24
+U4_led/reg1_syn_176.clk
+U4_led/reg0_syn_24
+641 1.555000 3.127000 4.682000 2 2
+U4_led/timer[22] U4_led/led_in_b[0]_syn_81.d[0]
+U4_led/led_in_b[0]_syn_22 U4_led/reg0_syn_24.b[1]
+
+Timing path: U4_led/led_in_b[0]_syn_86.clk->U4_led/reg0_syn_24
+U4_led/led_in_b[0]_syn_86.clk
+U4_led/reg0_syn_24
+681 1.616000 3.127000 4.743000 2 2
+U4_led/timer[23] U4_led/led_in_b[0]_syn_81.e[0]
+U4_led/led_in_b[0]_syn_22 U4_led/reg0_syn_24.b[1]
+
+
+Endpoint: U4_led/reg0_syn_27
+721 0.648000 153 3
+Timing path: U4_led/reg0_syn_27.clk->U4_led/reg0_syn_27
+U4_led/reg0_syn_27.clk
+U4_led/reg0_syn_27
+723 0.648000 3.127000 3.775000 1 1
+led[1]_dup_3 U4_led/reg0_syn_27.d[1]
+
+Timing path: U4_led/reg1_syn_156.clk->U4_led/reg0_syn_27
+U4_led/reg1_syn_156.clk
+U4_led/reg0_syn_27
+761 1.810000 3.127000 4.937000 3 3
+U4_led/timer[8] U4_led/reg1_syn_158.d[0]
+U4_led/led_in_b[0]_syn_26 U4_led/led_in_b[0]_syn_94.c[0]
+U4_led/led_in_b[0]_syn_40 U4_led/reg0_syn_27.c[1]
+
+Timing path: U4_led/led_in_b[0]_syn_81.clk->U4_led/reg0_syn_27
+U4_led/led_in_b[0]_syn_81.clk
+U4_led/reg0_syn_27
+803 1.836000 3.127000 4.963000 3 3
+U4_led/timer[26] U4_led/reg1_syn_153.c[1]
+U4_led/led_in_b[0]_syn_38 U4_led/led_in_b[0]_syn_94.b[0]
+U4_led/led_in_b[0]_syn_40 U4_led/reg0_syn_27.c[1]
+
+
+
+
+clock: U1_pll/pll_inst.clkc[0]
+845 7742 1072 2
+Setup check
+855 3
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+855 -1.433000 282 3
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_145.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_145.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+857 -1.433000 7.024000 8.457000 6 18
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/bus_reg[2] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_160.d[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_b[2] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_125.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_128.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_131.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_134.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_21 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_137.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_25 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_140.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_29 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_143.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_33 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_146.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_37 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_149.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_41 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_152.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_45 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_155.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_49 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_158.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_53 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_161.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_57 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_164.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1470.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_72 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1499.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_74 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68.b[1]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_145.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_145.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+929 -1.433000 7.024000 8.457000 6 18
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/bus_reg[2] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_160.d[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_b[2] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_125.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_128.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_131.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_134.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_21 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_137.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_25 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_140.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_29 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_143.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_33 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_146.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_37 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_149.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_41 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_152.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_45 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_155.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_49 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_158.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_53 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_161.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_57 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_164.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1470.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_72 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1499.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_74 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68.b[0]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_160.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/reg0_syn_160.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68
+1001 -1.359000 7.024000 8.383000 6 16
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/bus_reg[5] cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1005.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_b[5] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_131.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_134.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_21 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_137.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_25 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_140.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_29 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_143.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_33 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_146.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_37 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_149.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_41 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_152.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_45 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_155.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_49 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_158.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_53 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_161.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_57 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/lt1_syn_164.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[2]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1470.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_72 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1499.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[2]_syn_74 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_68.b[1]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+1069 -1.139000 81 3
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_80.clk->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_80.clk
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+1071 -1.139000 7.124000 8.263000 6 6
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/bus_reg[5] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_91.d[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_b[5] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_80.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_34 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_83.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_36 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_94.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_n12 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1492.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_52 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36.a[0]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_101.clk->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_101.clk
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+1119 -0.737000 7.124000 7.861000 6 6
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/bus_reg[3] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_114.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_b[3] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_91.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_39 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/reg0_syn_83.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_41 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_94.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_n12 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1492.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_52 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36.a[0]
+
+Timing path: U2_control/reg2_syn_303.clk->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+U2_control/reg2_syn_303.clk
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36
+1167 -0.594000 7.124000 7.718000 6 13
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/bus_reg[0] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_114.d[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_b[0] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_74.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_5 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_77.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_80.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_83.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_86.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_21 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_89.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_25 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_92.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_29 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_95.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_33 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/lt1_syn_98.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1480.b[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[12]$bus_nodes/sel0_syn_32 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1492.b[0]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[12]_syn_52 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[11]$bus_nodes/reg0_syn_36.a[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+1229 -1.064000 82 3
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+1231 -1.064000 7.096000 8.160000 6 9
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/bus_reg[0] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_b[0] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_42.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_5 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_45.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_48.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_51.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_54.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1591.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_24 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1458.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_26 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70.b[1]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+1285 -1.064000 7.096000 8.160000 6 9
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/bus_reg[0] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.d[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_b[0] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_42.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_5 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_45.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_48.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_51.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_54.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1591.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_24 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1458.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_26 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70.b[0]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk->cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.clk
+cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70
+1339 -1.063000 7.096000 8.159000 6 8
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/bus_reg[1] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/reg0_syn_54.d[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_b[1] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_45.a[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_9 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_48.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_13 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_51.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_17 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/lt1_syn_54.fci
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[5]$bus_nodes/trig_bus_en_n15 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1591.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_24 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1458.a[1]
+cw_top/wrapper_cwc_top/trigger_inst/trig_bus_en[5]_syn_26 cw_top/wrapper_cwc_top/trigger_inst/reg1_syn_70.b[1]
+
+
+
+Hold check
+1391 3
+Endpoint: auto_chipwatcher_0_logicbram_syn_111
+1393 0.137000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_120.clk->auto_chipwatcher_0_logicbram_syn_111
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/wt_ce_reg_syn_120.clk
+auto_chipwatcher_0_logicbram_syn_111
+1395 0.137000 2.183000 2.320000 0 1
+cw_top_syn_25 auto_chipwatcher_0_logicbram_syn_111.wea
+
+
+Endpoint: auto_chipwatcher_0_logicbram_syn_131
+1433 0.156000 7 3
+Timing path: U2_control/reg0_syn_87.clk->auto_chipwatcher_0_logicbram_syn_131
+U2_control/reg0_syn_87.clk
+auto_chipwatcher_0_logicbram_syn_131
+1435 0.156000 2.183000 2.339000 1 1
+U2_control/STR_cntclk[5] auto_chipwatcher_0_logicbram_syn_131.dia[2]
+
+Timing path: U2_control/reg0_syn_93.clk->auto_chipwatcher_0_logicbram_syn_131
+U2_control/reg0_syn_93.clk
+auto_chipwatcher_0_logicbram_syn_131
+1473 0.228000 2.183000 2.411000 1 1
+U2_control/STR_cntclk[3] auto_chipwatcher_0_logicbram_syn_131.dia[0]
+
+Timing path: U2_control/sel0_syn_48.clk->auto_chipwatcher_0_logicbram_syn_131
+U2_control/sel0_syn_48.clk
+auto_chipwatcher_0_logicbram_syn_131
+1511 0.316000 2.183000 2.499000 1 1
+U2_control/STR_cntclk[9] auto_chipwatcher_0_logicbram_syn_131.dia[6]
+
+
+Endpoint: auto_chipwatcher_0_logicbram_syn_381
+1549 0.163000 5 3
+Timing path: U3_CRC/reg64_syn_65.clk->auto_chipwatcher_0_logicbram_syn_381
+U3_CRC/reg64_syn_65.clk
+auto_chipwatcher_0_logicbram_syn_381
+1551 0.163000 2.246000 2.409000 1 1
+U3_CRC/crc_outt[3] auto_chipwatcher_0_logicbram_syn_381.dia[7]
+
+Timing path: U3_CRC/reg64_syn_65.clk->auto_chipwatcher_0_logicbram_syn_381
+U3_CRC/reg64_syn_65.clk
+auto_chipwatcher_0_logicbram_syn_381
+1589 0.178000 2.246000 2.424000 1 1
+U3_CRC/crc_outt[2] auto_chipwatcher_0_logicbram_syn_381.dia[6]
+
+Timing path: U3_CRC/reg64_syn_60.clk->auto_chipwatcher_0_logicbram_syn_381
+U3_CRC/reg64_syn_60.clk
+auto_chipwatcher_0_logicbram_syn_381
+1627 0.318000 2.246000 2.564000 1 1
+U3_CRC/crc_outt[0] auto_chipwatcher_0_logicbram_syn_381.dia[4]
+
+
+
+
+clock: U1_pll/pll_inst.clkc[1]
+1665 1116 40 2
+Setup check
+1675 3
+Endpoint: U2_control/reg3_syn_126
+1675 196.369000 33 3
+Timing path: U2_control/reg3_syn_139.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_139.clk
+U2_control/reg3_syn_126
+1677 196.369000 202.230000 5.861000 3 10
+U2_control/cnt_timer_10M[1] U2_control/lt0_syn_86.b[0]
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[0]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_126
+1729 196.380000 202.230000 5.850000 3 11
+U2_control/cnt_timer_10M[0] U2_control/lt0_syn_83.b[1]
+U2_control/lt0_syn_6 U2_control/lt0_syn_86.fci
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[0]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_126
+1783 196.460000 202.230000 5.770000 3 10
+U2_control/cnt_timer_10M[2] U2_control/lt0_syn_86.b[1]
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[0]
+
+
+Endpoint: U2_control/reg3_syn_126
+1835 196.369000 35 3
+Timing path: U2_control/reg3_syn_139.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_139.clk
+U2_control/reg3_syn_126
+1837 196.369000 202.230000 5.861000 3 10
+U2_control/cnt_timer_10M[1] U2_control/lt0_syn_86.b[0]
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[1]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_126
+1889 196.380000 202.230000 5.850000 3 11
+U2_control/cnt_timer_10M[0] U2_control/lt0_syn_83.b[1]
+U2_control/lt0_syn_6 U2_control/lt0_syn_86.fci
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[1]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_126
+1943 196.460000 202.230000 5.770000 3 10
+U2_control/cnt_timer_10M[2] U2_control/lt0_syn_86.b[1]
+U2_control/lt0_syn_10 U2_control/lt0_syn_89.fci
+U2_control/lt0_syn_14 U2_control/lt0_syn_92.fci
+U2_control/lt0_syn_18 U2_control/lt0_syn_95.fci
+U2_control/lt0_syn_22 U2_control/lt0_syn_98.fci
+U2_control/lt0_syn_26 U2_control/lt0_syn_101.fci
+U2_control/lt0_syn_30 U2_control/lt0_syn_104.fci
+U2_control/lt0_syn_34 U2_control/lt0_syn_107.fci
+U2_control/lt0_syn_38 U2_control/lt0_syn_110.fci
+U2_control/cnt_timer_10M_b1_n U2_control/reg3_syn_126.a[1]
+
+
+Endpoint: U2_control/angle_request_reg_syn_8
+1995 196.447000 18 3
+Timing path: U2_control/reg3_syn_142.clk->U2_control/angle_request_reg_syn_8
+U2_control/reg3_syn_142.clk
+U2_control/angle_request_reg_syn_8
+1997 196.447000 202.230000 5.783000 4 4
+U2_control/cnt_timer_10M[4] U2_control/angle_request_n_syn_24.c[1]
+U2_control/angle_request_n_syn_2 U2_control/angle_request_n_syn_26.d[0]
+U2_control/angle_request_n_syn_4 U2_control/angle_request_n_syn_22.a[1]
+U2_control/angle_request_n_syn_8 U2_control/angle_request_reg_syn_8.a[1]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/angle_request_reg_syn_8
+U2_control/reg3_syn_136.clk
+U2_control/angle_request_reg_syn_8
+2037 196.566000 202.230000 5.664000 4 4
+U2_control/cnt_timer_10M[2] U2_control/angle_request_n_syn_24.a[1]
+U2_control/angle_request_n_syn_2 U2_control/angle_request_n_syn_26.d[0]
+U2_control/angle_request_n_syn_4 U2_control/angle_request_n_syn_22.a[1]
+U2_control/angle_request_n_syn_8 U2_control/angle_request_reg_syn_8.a[1]
+
+Timing path: U2_control/reg3_syn_142.clk->U2_control/angle_request_reg_syn_8
+U2_control/reg3_syn_142.clk
+U2_control/angle_request_reg_syn_8
+2077 196.641000 202.230000 5.589000 4 4
+U2_control/cnt_timer_10M[3] U2_control/angle_request_n_syn_24.b[1]
+U2_control/angle_request_n_syn_2 U2_control/angle_request_n_syn_26.d[0]
+U2_control/angle_request_n_syn_4 U2_control/angle_request_n_syn_22.a[1]
+U2_control/angle_request_n_syn_8 U2_control/angle_request_reg_syn_8.a[1]
+
+
+
+Hold check
+2117 3
+Endpoint: U2_control/reg3_syn_136
+2119 0.590000 23 3
+Timing path: U2_control/angle_request_n_syn_24.clk->U2_control/reg3_syn_136
+U2_control/angle_request_n_syn_24.clk
+U2_control/reg3_syn_136
+2121 0.590000 2.135000 2.725000 1 1
+U2_control/key_reg1 U2_control/reg3_syn_136.d[1]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_136
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_136
+2155 1.441000 2.135000 3.576000 2 2
+U2_control/cnt_timer_10M[2] U2_control/sub0_syn_112.b[1]
+U2_control/cnt_timer_10M_b2[2] U2_control/reg3_syn_136.b[1]
+
+Timing path: U2_control/reg3_syn_139.clk->U2_control/reg3_syn_136
+U2_control/reg3_syn_139.clk
+U2_control/reg3_syn_136
+2191 1.475000 2.135000 3.610000 2 2
+U2_control/cnt_timer_10M[1] U2_control/sub0_syn_112.a[1]
+U2_control/cnt_timer_10M_b2[2] U2_control/reg3_syn_136.b[1]
+
+
+Endpoint: U2_control/reg3_syn_126
+2227 0.590000 33 3
+Timing path: U2_control/angle_request_n_syn_24.clk->U2_control/reg3_syn_126
+U2_control/angle_request_n_syn_24.clk
+U2_control/reg3_syn_126
+2229 0.590000 2.135000 2.725000 1 1
+U2_control/key_reg1 U2_control/reg3_syn_126.d[0]
+
+Timing path: key_syn_4.ipclk->U2_control/reg3_syn_126
+key_syn_4.ipclk
+U2_control/reg3_syn_126
+2263 1.519000 2.135000 3.654000 1 1
+U2_control/key_reg0 U2_control/reg3_syn_126.c[0]
+
+Timing path: U2_control/reg3_syn_126.clk->U2_control/reg3_syn_126
+U2_control/reg3_syn_126.clk
+U2_control/reg3_syn_126
+2297 1.661000 2.135000 3.796000 2 2
+U2_control/cnt_timer_10M[12] U2_control/sub0_syn_115.b[0]
+U2_control/cnt_timer_10M_b2[12] U2_control/reg3_syn_126.b[0]
+
+
+Endpoint: U2_control/reg3_syn_136
+2333 0.590000 21 3
+Timing path: U2_control/angle_request_n_syn_24.clk->U2_control/reg3_syn_136
+U2_control/angle_request_n_syn_24.clk
+U2_control/reg3_syn_136
+2335 0.590000 2.135000 2.725000 1 1
+U2_control/key_reg1 U2_control/reg3_syn_136.d[0]
+
+Timing path: U2_control/reg3_syn_136.clk->U2_control/reg3_syn_136
+U2_control/reg3_syn_136.clk
+U2_control/reg3_syn_136
+2369 1.441000 2.135000 3.576000 2 2
+U2_control/cnt_timer_10M[0] U2_control/sub0_syn_112.b[0]
+U2_control/cnt_timer_10M_b2[0] U2_control/reg3_syn_136.b[0]
+
+Timing path: key_syn_4.ipclk->U2_control/reg3_syn_136
+key_syn_4.ipclk
+U2_control/reg3_syn_136
+2405 1.553000 2.135000 3.688000 1 1
+U2_control/key_reg0 U2_control/reg3_syn_136.c[0]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  U1_pll/pll_inst.clkc[0] (200.0MHz)             6.433ns     155.448MHz        0.480ns       254       -9.196ns
+	  clk_50MHz (50.0MHz)                            8.306ns     120.395MHz        0.326ns        25        0.000ns
+	  U1_pll/pll_inst.clkc[1] (5.0MHz)               3.631ns     275.406MHz        0.408ns        12        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 2 clock net(s): 
+	U2_control/clk_out_reg1_syn_4
+	config_inst_syn_10
+

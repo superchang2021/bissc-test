@@ -1,0 +1,96 @@
+standard
+***Report Model: biss_test Device: EG4X20BG256***
+
+IO Statistics
+#IO                        11
+  #input                    4
+  #output                   7
+  #inout                    0
+
+Utilization Statistics
+#lut                     1232   out of  19600    6.29%
+#reg                     1028   out of  19600    5.24%
+#le                      1524
+  #lut only               496   out of   1524   32.55%
+  #reg only               292   out of   1524   19.16%
+  #lut&reg                736   out of   1524   48.29%
+#dsp                        0   out of     29    0.00%
+#bram                      49   out of     64   76.56%
+  #bram9k                  49
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       11   out of    188    5.85%
+  #ireg                     2
+  #oreg                     5
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       3   out of     16   18.75%
+
+Clock Resource Statistics
+Index     ClockNet                   Type               DriverType         Driver                                  Fanout
+#1        config_inst_syn_9          GCLK               config             config_inst.jtck                        330
+#2        U1_pll/clk0_buf            GCLK               pll                U1_pll/pll_inst.clkc0                   254
+#3        sys_clk_dup_1              GCLK               io                 sys_clk_syn_2.di                        26
+#4        U2_control/clk_out_reg1    GCLK               lslice             U2_control/clk_out_reg1_reg_syn_4.q0    22
+#5        U2_control/clk_5M          GCLK               pll                U1_pll/pll_inst.clkc1                   12
+
+
+Detailed IO Report
+
+    Name       Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     key         INPUT         D3        LVCMOS25          N/A          PULLUP      IREG    
+     sl          INPUT        M15        LVCMOS25          N/A          PULLUP      IREG    
+   sys_clk       INPUT         T8        LVCMOS25          N/A          PULLUP      NONE    
+  sys_rst_n      INPUT         C3        LVCMOS25          N/A          PULLUP      NONE    
+     de         OUTPUT        T14        LVCMOS25           8            NONE       NONE    
+   led[3]       OUTPUT         M6        LVCMOS25           8            NONE       OREG    
+   led[2]       OUTPUT         P5        LVCMOS25           8            NONE       OREG    
+   led[1]       OUTPUT         N5        LVCMOS25           8            NONE       OREG    
+   led[0]       OUTPUT         P4        LVCMOS25           8            NONE       OREG    
+     ma         OUTPUT        K16        LVCMOS25           8            NONE       OREG    
+     re         OUTPUT        R15        LVCMOS25           8            NONE       NONE    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------+
+|Instance                             |Module         |le     |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------------------+
+|top                                  |biss_test      |1524   |1007    |225     |1035    |49      |0       |
+|  U1_pll                             |mypll          |0      |0       |0       |0       |0       |0       |
+|  U2_control                         |biss_control   |172    |148     |20      |91      |0       |0       |
+|  U3_CRC                             |biss_crc6      |83     |70      |13      |57      |0       |0       |
+|  U4_led                             |led            |61     |49      |9       |35      |0       |0       |
+|  cw_top                             |CW_TOP_WRAPPER |1204   |737     |183     |843     |0       |0       |
+|    wrapper_cwc_top                  |cwc_top        |1204   |737     |183     |843     |0       |0       |
+|      cfg_int_inst                   |cwc_cfg_int    |562    |309     |0       |562     |0       |0       |
+|        reg_inst                     |register       |560    |307     |0       |560     |0       |0       |
+|        tap_inst                     |tap            |2      |2       |0       |2       |0       |0       |
+|      trigger_inst                   |trigger        |642    |428     |183     |281     |0       |0       |
+|        bus_inst                     |bus_top        |371    |245     |126     |139     |0       |0       |
+|          BUS_DETECTOR[0]$bus_nodes  |bus_det        |2      |2       |0       |2       |0       |0       |
+|          BUS_DETECTOR[10]$bus_nodes |bus_det        |30     |20      |10      |8       |0       |0       |
+|          BUS_DETECTOR[11]$bus_nodes |bus_det        |23     |15      |8       |10      |0       |0       |
+|          BUS_DETECTOR[12]$bus_nodes |bus_det        |49     |31      |18      |15      |0       |0       |
+|          BUS_DETECTOR[1]$bus_nodes  |bus_det        |2      |2       |0       |2       |0       |0       |
+|          BUS_DETECTOR[2]$bus_nodes  |bus_det        |87     |57      |30      |30      |0       |0       |
+|          BUS_DETECTOR[4]$bus_nodes  |bus_det        |26     |16      |10      |10      |0       |0       |
+|          BUS_DETECTOR[5]$bus_nodes  |bus_det        |29     |19      |10      |13      |0       |0       |
+|          BUS_DETECTOR[6]$bus_nodes  |bus_det        |28     |18      |10      |11      |0       |0       |
+|          BUS_DETECTOR[7]$bus_nodes  |bus_det        |31     |21      |10      |13      |0       |0       |
+|          BUS_DETECTOR[8]$bus_nodes  |bus_det        |34     |24      |10      |15      |0       |0       |
+|          BUS_DETECTOR[9]$bus_nodes  |bus_det        |30     |20      |10      |10      |0       |0       |
+|        emb_ctrl_inst                |emb_ctrl       |164    |114     |29      |106     |0       |0       |
++----------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       754   
+    #2          2       696   
+    #3          3       230   
+    #4          4       130   
+    #5        5-10      141   
+    #6        11-50      33   
+    #7       51-100      12   
+    #8       101-500     5    
+  Average     3.27            

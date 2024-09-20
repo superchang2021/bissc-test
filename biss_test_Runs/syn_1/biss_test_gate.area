@@ -1,0 +1,42 @@
+standard
+***Report Model: biss_test Device: EG4X20BG256***
+
+IO Statistics
+#IO                        11
+  #input                    4
+  #output                   7
+  #inout                    0
+
+LUT Statistics
+#Total_luts               356
+  #lut4                   205
+  #lut5                    37
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             114
+
+Utilization Statistics
+#lut                      356   out of  19600    1.82%
+#reg                      175   out of  19600    0.89%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       11   out of    188    5.85%
+  #ireg                     2
+  #oreg                     5
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance     |Module       |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------+
+|top          |biss_test    |242     |114     |182     |0       |0       |
+|  U1_pll     |mypll        |0       |0       |0       |0       |0       |
+|  U2_control |biss_control |122     |56      |89      |0       |0       |
+|  U3_CRC     |biss_crc6    |79      |25      |50      |0       |0       |
+|  U4_led     |led          |41      |33      |36      |0       |0       |
++------------------------------------------------------------------------+

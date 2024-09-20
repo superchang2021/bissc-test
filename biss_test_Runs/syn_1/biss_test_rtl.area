@@ -1,0 +1,39 @@
+standard
+***Report Model: biss_test Device: EG4X20BG256***
+
+IO Statistics
+#IO                        11
+  #input                    4
+  #output                   7
+  #inout                    0
+
+Gate Statistics
+#Basic gates              524
+  #and                    167
+  #nand                     0
+  #or                      58
+  #nor                      0
+  #xor                     25
+  #xnor                     0
+  #buf                      0
+  #not                     33
+  #bufif1                   0
+  #MX21                    64
+  #FADD                     0
+  #DFF                    177
+  #LATCH                    0
+#MACRO_ADD                  7
+#MACRO_EQ                  48
+#MACRO_MUX                103
+#MACRO_OTHERS               1
+
+Report Hierarchy Area:
++---------------------------------------------------+
+|Instance     |Module       |gates  |seq    |macros |
++---------------------------------------------------+
+|top          |biss_test    |347    |177    |56     |
+|  U1_pll     |mypll        |0      |0      |1      |
+|  U2_control |biss_control |245    |91     |47     |
+|  U3_CRC     |biss_crc6    |89     |50     |3      |
+|  U4_led     |led          |13     |36     |5      |
++---------------------------------------------------+
